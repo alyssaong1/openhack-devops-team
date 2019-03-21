@@ -11,7 +11,7 @@ image:
   label: mydrive-trips
   containerPort: 80
 env:
-  webServerBaseUri: @@HOST_ENDPOINT@@
+  webServerBaseUri: 'http://localhost'
 service:
   externalPort: 80
 ingress:
