@@ -1,6 +1,15 @@
 # Default values for chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+productionSlot: blue
+blue:
+  enabled: true
+  tag: latest
+
+green:
+  enabled: false
+  tag: latest
+
 replicaCount: 2
 repository:
   image: openhackuse8acr.azurecr.io/devopsoh/api-trip
@@ -11,7 +20,7 @@ image:
   label: mydrive-trips
   containerPort: 80
 env:
-  webServerBaseUri: 'http://akstraefikopenhackuse8.northeurope.cloudapp.azure.com'
+  webServerBaseUri: 'http://akstraefikopenhackucc0.northeurope.cloudapp.azure.com'
 service:
   externalPort: 80
 ingress:
