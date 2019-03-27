@@ -12,7 +12,7 @@ green:
 
 replicaCount: 2
 repository:
-  image: openhackuse8acr.azurecr.io/devopsoh/api-trip
+  image: openhackucc0acr.azurecr.io/devopsoh/api-trip
   tag: latest
   pullPolicy: Always
 image:

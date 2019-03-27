@@ -12,7 +12,7 @@ green:
 
 replicaCount: 2
 repository:
-  image: openhackuse8acr.azurecr.io/devopsoh/api-poi
+  image: openhackucc0acr.azurecr.io/devopsoh/api-poi
   tag: latest
   pullPolicy: Always
 image:
